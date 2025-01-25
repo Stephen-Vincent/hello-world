@@ -1,9 +1,11 @@
-
+import Fruits from "./components/Fruits";
 
 function App() {
   return (
-    <div >Hello World</div>
-  )
+    <div>
+      <Fruits />
+    </div>
+  );
 }
 
-export default App
+export default App;
